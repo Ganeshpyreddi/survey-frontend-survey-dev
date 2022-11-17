@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+
+
+/* header */
+
+:root {
+    --primaryColor: rgb(53, 51, 51);
+    --secondaryColor: #084c74;
+    --fadedGreyColor: #d3d3d3;
+    --boxShadow: 0px 10px 20px rgba(0, 0, 0, 0.107);
+    --fadedGreyBorder: 1px solid var(--fadedGreyColor);
+    --blackColor: rgb(27, 27, 27);
+    --whiteColor: #fff;
+    --violetColor: #11113d;
+    --redColor: orangered;
+}
+
+html {
+    font-family: "Poppins", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    color: var(--primaryColor);
+}
